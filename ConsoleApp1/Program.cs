@@ -1,4 +1,4 @@
-﻿using System.Media;
+using System.Media;
 Console.WriteLine("Переключение между октавами F2 F3 F4 F5 F6 F7 F8 F9");
 Console.WriteLine("Субконтроктавы нет всвязи с её низкой герцовкой из-за которой вылетает программа");
 Console.WriteLine("Изначально стоит 5 октава");
@@ -13,7 +13,6 @@ void hz(int hz)
 }
 int[] Octa(int oct)
 {
-    int[] KontrOctava = new int[] { 37, 37, 37, 38, 41, 43, 46, 48, 51, 55, 58, 61 };
     int[] BolshayaOktava = new int[] { 65, 69, 73, 77, 82, 87, 92, 97, 103, 110, 116, 123 };
     int[] MalenkayOctava = new int[] { 130, 138, 146, 155, 164, 174, 184, 195, 207, 220, 233, 246 };
     int[] perv = new int[] { 261, 277, 293, 311, 329, 349, 369, 391, 415, 440, 456, 493 };
